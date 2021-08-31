@@ -1,9 +1,12 @@
+/* Begin Global CSS */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+/* End Global CSS */
 
+/* begin html body wrapper css */
 html,
 body,
 .wrapper {
@@ -11,25 +14,33 @@ body,
   margin: 0;
   padding: 0;
 }
+/* end html body wrapper css */
 
+/* begin html body wrapper css */
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
+/* end html body wrapper css */
 
+/* begin .wrapper styling */
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
+/* end .wrapper styling */
 
+/* begin header styling */
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
+/* END header styling */
 
+/* begin .card styling */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -41,7 +52,9 @@ header {
   max-width: 800px;
   padding: 30px 40px;
 }
+/* end .card styling */
 
+/* begin .card-header::after styling */
 .card-header::after {
   content: " ";
   display: block;
@@ -49,15 +62,21 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
+/* end .card-header::after styling */
 
+/* begin .card-body stying */
 .card-body {
   min-height: 100px;
 }
+/* end .card-body styling */
 
+/* begin .card-footer styling */
 .card-footer {
   text-align: center;
 }
+/* begin .card-footer styling */
 
+/* begin .card-footer::before */
 .card-footer::before {
   content: " ";
   display: block;
@@ -65,16 +84,20 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
+/* end .card-footer::before */
 
+/* begin .card-footer::after*/
 .card-footer::after {
   content: " ";
   display: block;
   clear: both;
 }
+/* end .card-footer::after*/
 
+/* begin btn */
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(47, 10, 212);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -87,16 +110,22 @@ header {
   text-align: center;
   cursor: pointer;
 }
+/* end btn */
 
+/* begin button*/
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
 }
+/* end button*/
 
+/* begin .float-right*/
 .float-right {
   float: right;
 }
+/* end .float-right*/
 
+/* begin #password*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,7 +146,9 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+/* end #password*/
 
+/* begin @media */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -135,3 +166,4 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+/* end @media */

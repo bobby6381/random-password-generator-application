@@ -6,4 +6,6 @@ Written in Javascript this application is built to generate a random password ba
 * Specify which case to use (upper / lower)
 * Specify password length. (between 8-128 characters)
 
+https://bobby6381.github.io/random-password-generator-application/
+
 ### Thank you for visiting my repo! 🐱‍💻

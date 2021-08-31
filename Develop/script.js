@@ -1,6 +1,6 @@
 // Assignment code here
 function generatePassword() {
-  return "$523CATKLSJDFKLSJ"
+  return "$523C%TklSJdFKlSJ"
 }
 // var myName = {
 //   first: "bobby", 
