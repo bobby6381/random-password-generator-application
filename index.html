@@ -21,12 +21,25 @@
           <h2>Generate a Password</h2>
         </div>
         <div class="card-body">
+<!--code template from w3 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_random -->
+<button onclick="myFunction()">Generate a password</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo")
+  x.innerHTML = Math.floor((Math.random() * 100000000000000) + 1);
+}
+</script>
+<!--End Code Template-->
           <textarea
             readonly
             id="password"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
-          ></textarea>
+          >
+        </textarea>
         </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>

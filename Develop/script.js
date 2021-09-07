@@ -1,7 +1,16 @@
+// Code is a template from w3 schools source https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_random3
 // Assignment code here
-function generatePassword() {
+
+/*function generatePassword() {
   return "$523C%TklSJdFKlSJ"
+}*/
+
+function generatePassword() {
+  var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var passwordLength = 8;
+  var password = "";
 }
+
 // var myName = {
 //   first: "bobby", 
 //   last: "gallagher",
