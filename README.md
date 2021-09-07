@@ -8,4 +8,7 @@ Written in Javascript this application is built to generate a random password ba
 
 https://bobby6381.github.io/random-password-generator-application/
 
+* Screenshot of application
+* ![image](https://user-images.githubusercontent.com/22639294/131579159-d830d1e8-418a-4fa9-850b-7a02a270c952.png)
+
 ### Thank you for visiting my repo! 🐱‍💻
